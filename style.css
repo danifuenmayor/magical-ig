@@ -1,0 +1,33 @@
+body {
+    background: lightgray;
+    margin-top: 70px;
+
+}
+.nav-link.active {
+background-color: gray !important;
+color: white !important;
+}
+.nav-link {
+    color:gray !important;
+}
+.post {
+    margin: 10px auto 10px;
+    width: 600px;
+    background: white;
+    border-radius: 5px;
+}
+.post img {
+    width:100%;
+}
+div.post .post-header div:first-child{
+    display: inline-block;
+    width:80%;
+    padding: 10px;
+  }
+  div.post .post-header div:last-child{
+    display: inline-block;
+    width:20%;
+    text-align: right;
+    padding:10px;
+    color: gray;
+}
